@@ -1,0 +1,60 @@
+.login-parent {
+  background: var(--accent-green);
+  height: 300px;
+
+  .login-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .icon {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      svg {
+        font-size: 30px;
+      }
+    }
+  }
+  .second-box {
+    background: var(--white);
+    height: 100%;
+    padding:250px 0px;
+    box-shadow: var(--shadow);
+    margin-top: -60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .icon2 {
+      color: var(--accent-green);
+      svg {
+        font-size: 50px;
+      }
+    }
+    .heading {
+      font-weight: 600;
+    }
+    .desc{
+        width:34ch;
+    }
+    .btn {
+      color: white;
+      background: var(--accent-green);
+      padding: 10px 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: var(--trans);
+      &:hover{
+
+        background:var(--accent-green2);
+      }
+    }
+  }
+}
